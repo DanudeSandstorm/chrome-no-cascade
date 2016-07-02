@@ -3,10 +3,10 @@
 
 	"name": "Chrome no Cascade",
 	"description": "Prevents chrome from cascading new windows.",
-	"version": "0.2",
+	"version": "0.3",
 
 	"permissions": [
-		"tabs"
+		"activeTab"
 	],
 
 	"background": {
