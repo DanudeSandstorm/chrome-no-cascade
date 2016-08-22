@@ -3,7 +3,11 @@
 
 	"name": "Chrome no Cascade",
 	"description": "Prevents chrome from cascading new windows.",
-	"version": "0.3.1",
+	"version": "0.4",
+
+	"icons": {
+		"16": "chrome-cascade.png"
+	},
 
 	"permissions": [
 		"activeTab"
@@ -11,6 +15,10 @@
 
 	"background": {
 		"scripts": ["background.js"]
+	},
+
+	"browser_action": {
+		"default_icon": "chrome-cascade.png"
 	}
 
 }
